@@ -1,0 +1,290 @@
+/* Navigation */
+.navbar-button{
+  background-color:#ffb6c1 ; 
+}
+.nav-button{
+  background-color:#f2e3bf ;
+}
+.logo-button{
+  width: 120px;  
+}
+.search-button{
+  border-color: #e78585;
+}
+.search-button:hover{
+  background-color: #e78585;
+  color: white;
+}
+
+.input-button{
+  justify-content: center;
+}
+
+.icon-button{
+  color: black;
+  text-decoration: none;
+  width: 20px;
+}
+
+
+/* .icons{
+  border: none;
+  background-color:#f2e3bf;
+  
+} */
+/* Delivery styles */
+.track-button{
+  background-color: #e78585;
+}
+.delivery{
+  padding-top: 50px;   
+}
+
+/* Home */
+.flex-container{
+  border-radius: 8px;
+  background-color: #f9a7a7;
+}
+.code{
+  background-color: white;
+  color: black;
+}
+.gift{
+  width: 30px;
+  height: 30px;  
+}
+
+/* User Dashboard */
+.sign-but{
+  background-color: #f9a7a7;
+  margin-top:3px;
+  margin-bottom: 5px;
+  margin-left: 60px;
+}
+.sign-but:hover{
+  border: 2px solid #e78585;
+}
+.user{
+  font-size: 20px;
+}
+
+
+/* store */
+.food{
+  height: 150px;
+  object-fit: cover;
+  width: 100%;
+}
+.cardTitle{
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  display: block;
+}
+
+
+
+/* Discount */
+.discount-card {
+  border: 1px solid #e78585;
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 180px;
+}
+
+.discount-code {
+  background-color: #ffb6c1;
+  color: black;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Toystore */
+.cover{
+  width: 100%;
+}
+
+/* ChewToy */
+.img-chew{
+  object-fit: cover;
+  width: 100%;
+}
+.size-code {
+  background-color: #ffb6c1;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  padding: 4px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 40%;
+}
+.chew-card{
+  text-decoration: none;
+  border: 1px solid #e78585;
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 180px;
+  
+}
+.chew-card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+}
+.price-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addToCart{
+  background-color: #e78585;
+}
+/* DogToys */
+.dog-head{
+  font-family:'Franklin Gothic Medium';
+  text-align: center;
+}
+ /* festival */
+ .fes{
+  object-fit: cover;
+  width: 100%;
+}
+.fes-cover{
+  width: 100%;
+  background-color: rgb(250, 236, 158);
+}
+
+/* ShopByBreed */
+.breeds-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width:400px;
+  position: absolute;
+   
+  left: 0;
+  z-index: 1000;
+}
+
+.breed-card {
+  text-align: center;
+  width: 120px;
+}
+
+.breed-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.breed-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact us */
+.contact-img{
+  height: 50px;
+}
+.txt-decor{
+  text-decoration: none;
+  text-decoration-color: black;
+}
+
+/* Admin Product List */
+.btn-action1{
+  border: 2px solid #04AA6D;
+  background-color: white;
+  color: black;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 9px;
+}
+
+.btn-action1:hover {
+  background-color: #04AA6D; /* Green */
+  color: white;
+}
+.btn-action2{
+  border: 2px solid #f44336;
+  background-color: white;
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 9px;
+
+}
+.btn-action2:hover {
+  background-color: #f44336;
+  color: white;
+}
+.btn-submit{
+ background-color: #e78585;
+ border: none;
+ border-radius: 5px;
+ margin-left: 30px;
+ padding: 10px 24px;
+}
+
+/* SignUp button */
+.signup-btn{
+  background-color:#f54d4d ;
+  color: white;
+  text-decoration: none;
+  border: none;
+
+}
+.signup-btn:hover{
+  border: 2px solid #ca2e22;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+
+}
+.loginbg-img{
+  background-image: url("../Images/loginBg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  color:white;
+  font-weight: bold;
+  font-family:canva Sans;
+  font-size: 25px;
+}
+.regbg-img{
+  background-image: url("../Images/regBg.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  color:white;
+  font-family: canva Sans;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+.text-doc{
+text-decoration: none;
+text-decoration-line: none;
+}
