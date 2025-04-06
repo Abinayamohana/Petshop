@@ -27,6 +27,10 @@ A full-stack web application designed for managing and browsing pet products wit
 
 ## 📷 Screenshots
 
+## Registration Page
+
+<img src="./client/public/Registration.png" alt="Registration page" width="400"/>
+
 
 
 ---
